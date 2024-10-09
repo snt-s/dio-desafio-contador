@@ -15,11 +15,12 @@ public class Contador {
 
             contar(parametroA , parametroB);
 
+            sc.close();
+
         } catch (ParametrosInvalidosException e){
 
             System.out.println("Os valores devem ser numéricos e o primeiro parâmetro deve ser menor que o segundo");
         }
-
     }
 
     public static void contar(int parametroA , int parametroB) throws ParametrosInvalidosException {
